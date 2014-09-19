@@ -5,7 +5,7 @@ var CONFIG = require('config')
 // Database
 // ----------------------------------------------------------------------------
 if( !mongoose.connection.readyState ){
-  mongoose.connect( 'mongodb://localhost/cpb-api-dev', function( err ){
+  mongoose.connect( 'mongodb://localhost/sample-api', function( err ){
     if( err ){
       console.log('Unable to connect to Mongo!', err );
       process.exit(1);
@@ -17,7 +17,7 @@ if( !mongoose.connection.readyState ){
 // ----------------------------------------------------------------------------
 var Logger = require( 'bunyan' );
 global.log = new Logger( {
-  name   : 'cpb-api',
+  name   : 'sample-api',
   streams: [
     {
       level : 'info',

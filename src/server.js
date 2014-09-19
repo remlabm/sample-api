@@ -11,7 +11,7 @@ require('./models/user-note');
 // HTTP Server
 // ----------------------------------------------------------------------------
 var server = restify.createServer( {
-  name: 'cpb-api',
+  name: 'sample-api',
   version: '0.1.0'
   /* https cert/key */
 } );
