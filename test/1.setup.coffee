@@ -1,6 +1,6 @@
 global.restify = require 'restify'
 global.mongoose = require 'mongoose'
-mongoose.connect 'mongodb://localhost/cpb-api-test'
+mongoose.connect 'mongodb://localhost/sample-api-test'
 Logger = require 'bunyan'
 
 global.chai = require 'chai'
@@ -9,7 +9,7 @@ global.assert = chai.assert
 require './schemas' ## Load schemas
 
 global.log = new Logger {
-  name: 'meelocal-api-test'
+  name: 'sample-api-test'
   streams:[
     {
       level: 'info'
