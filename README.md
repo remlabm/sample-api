@@ -1,4 +1,4 @@
-# Sample Api
+# Sample Api ![Magnum-CI](https://magnum-ci.com/status/1803e87a0473c7c6644e4f6d4d2be8d8.png)
 Sample Api application demonstrating CRUD with oAuth2 
 
 ## How to use
